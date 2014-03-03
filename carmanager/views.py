@@ -1,12 +1,9 @@
-from django.http import HttpResponse
 from django.shortcuts import render, redirect
-from django.templatetags.static import static
-from django.template import RequestContext
 from carmanager.models import Car
 from carmanager.forms import CarForm
 import csv
 
-
+#On homepage load, imports CSV into database. This happens every time, so there are lots of duplicate records.
 def import_cars(request):
     url = 'carmanager/static/cars.csv'
     with open(url, "rU") as f:
@@ -15,9 +12,12 @@ def import_cars(request):
             Car.objects.create(year=row[0], make=row[1], model=row[2], horsepower=row[3], transmission=row[4], gears=row[5])
     return render(request, "home.html")
 
+#Displays search form.
 def search_form(request):
     return render(request, 'search_cars.html')
 
+#Takes user search input and queries database, returning results to another page called "search_results". Checks for some errors.
+#I wanted this to take in multiple search fields but couldn't get it to work properly-- all fields are optional.
 def search(request):
     error = False
     if 'q' in request.GET:
@@ -31,6 +31,7 @@ def search(request):
     return render(request, 'search_cars.html',
         {'error': error})
 
+#From search results, a user can  click on a record to edit. On success, redirects to homepage.
 def edit_cars(request,car_id):
     edit_car = Car.objects.get(id=car_id)
     if request.method=="POST":
@@ -45,12 +46,13 @@ def edit_cars(request,car_id):
     data = {"car": edit_car, "form": form}
     return render (request, "edit_cars.html", data)
 
+# User can also delete a record directly from the search list. On success, redirects to homepage.
 def delete_cars(request, car_id):
     car = Car.objects.get(id=car_id)
     car.delete()
     return redirect("/")
 
-
+#Allows user to add a new car to the database.
 def add_cars(request):
     if request.method=="POST":
         form = CarForm(request.POST)
