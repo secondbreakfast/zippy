@@ -1,4 +1,4 @@
 zippy
 =====
 
-Zippy: A car database manager. Practice importing files into database and editing records using forms in Django. 
+Zippy: A car database manager. This is to practice importing files into MySQL and querying/editing records using forms in Django. 
