@@ -1,0 +1,33 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="{% static "css/main.css" %}">
+</head>
+<body>
+<p>You searched for: <strong>{{ query }}</strong></p>
+
+{% if cars %}
+    <p>Found {{ cars|length }} car{{ cars|pluralize }}.</p>
+    <br>
+    {% for car in cars %}
+    <div class="row">
+        <div class="cell">{{ car.year }}</div>
+        <div class="cell">{{ car.make }}</div>
+        <div class="cell">{{ car.model }}</div>
+        <div class="cell">{{ car.transmission }}</div>
+        <div class="cell">{{ car.horsepower }}</div>
+        <div class="cell">{{ car.gears }}</div>
+        <div class="cell"><a href="{% url "edit_cars" car.id %}">Edit</a></div>
+        <div class="cell"><a href="{% url "delete_cars" car.id %}">Delete</a></div>
+     </div>
+    <br>
+    {% endfor %}
+{% else %}
+    <p>No cars matched your search criteria.</p>
+{% endif %}
+</body>
+</html>

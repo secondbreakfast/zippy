@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit record</title>
+</head>
+<body>
+<h3>Edit record {{ car.year }}/{{ car.make }}/{{ car.model }}</h3>
+<form method ="post">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" value ="Update record">
+</form>
+</body>
+</html>

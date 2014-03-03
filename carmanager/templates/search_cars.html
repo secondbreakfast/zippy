@@ -1,0 +1,20 @@
+<html>
+<head>
+    <title>Search</title>
+</head>
+<body>
+    {% if error %}
+        <p style="color: red;">Please submit a search term.</p>
+    {% endif %}
+    <form action="/search/" method="get">
+        Search cars by make: <input type="text" name="q">
+        {#        Year: <input type="text" name="search_year">#}
+        {#        Make: <input type="text" name="search_make">#}
+        {#        Model: <input type="text" name="search_model">#}
+        {#        Horsepower: <input type="number" name="search_horsepower">#}
+        {#        Transmission: <input type="text" name="search_transmission">#}
+        {#        Gears: <input type="text" name="search_gears">#}
+        <input type="submit" value="Search">
+    </form>
+</body>
+</html>

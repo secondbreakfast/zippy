@@ -1,0 +1,8 @@
+.row {
+    overflow:hidden;
+    width:100%;
+}
+.cell {
+    width:12%;
+    float:right;
+}
