@@ -1,8 +1,10 @@
-<html>
-<head>
-    <title>Search</title>
-</head>
-<body>
+{% extends "base.html" %}
+
+{% block title %}Search cars{% endblock %}
+
+{% block main %}
+    <h2>Search Cars</h2>
+   <div class="main_text"> Search to edit, view, or delete records. </div>
     {% if error %}
         <p style="color: red;">Please submit a search term.</p>
     {% endif %}
@@ -16,5 +18,4 @@
         {#        Gears: <input type="text" name="search_gears">#}
         <input type="submit" value="Search">
     </form>
-</body>
-</html>
+{% endblock %}

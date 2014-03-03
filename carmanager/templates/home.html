@@ -1,17 +1,15 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Zippy</title>
-</head>
-<body>
-<h2>Welcome to Zippy!</h2>
-<h4>Your personal car manager.</h4>
-<p>What would you like to do?</p>
-<br>
-<br>
-<a href="{% url "add_cars" %}">Add a New Car</a>
-<a href="{% url "search_form" %}">Search, Edit & Delete Cars</a>
-<br>
+{% extends "base.html" %}
 
-</body>
-</html>
+{% block title %}Zippy{% endblock %}
+
+{% block main %}
+<div class="header">
+Welcome to Zippy!
+</div>
+<div class="main_text"><h4>Zippy is your personal car manager. What would you like to do?</h4></div>
+<br>
+<div id="home_buttons">
+<button class="button"><a href="{% url "add_cars" %}">Add a New Car</a><br></button>
+<button class="button"><a href="{% url "search_form" %}">Search, Edit & Delete Cars</a></button>
+</div>
+{% endblock %}

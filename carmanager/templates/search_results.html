@@ -1,17 +1,20 @@
-{% load staticfiles %}
+{% extends "base.html" %}
 
-<!DOCTYPE html>
-<html>
-<head>
+{% block title %}Search Resultsk{% endblock %}
 
-    <title></title>
-    <link rel="stylesheet" type="text/css" href="{% static "css/main.css" %}">
-</head>
-<body>
-<p>You searched for: <strong>{{ query }}</strong></p>
+{% block main %}
+<div class="header"><p>You searched for: <strong>{{ query }}</strong></p></div>
 
 {% if cars %}
-    <p>Found {{ cars|length }} car{{ cars|pluralize }}.</p>
+    <div class="main_text"><p>Number of results: {{ cars|length }} </p></div>
+        <div id="row_header">
+        <div class="cell_header">Year</div>
+        <div class="cell_header">Make</div>
+        <div class="cell_header">Model</div>
+        <div class="cell_header">Transmission</div>
+        <div class="cell_header">Horsepower</div>
+        <div class="cell_header">Num. Gears</div>
+     </div>
     <br>
     {% for car in cars %}
     <div class="row">
@@ -29,5 +32,4 @@
 {% else %}
     <p>No cars matched your search criteria.</p>
 {% endif %}
-</body>
-</html>
+{% endblock %}

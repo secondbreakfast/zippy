@@ -23,13 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/carmanager/views.py">
+      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/carmanager/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="42" selection-start="1443" selection-end="1444" vertical-scroll-proportion="0.0" vertical-offset="532" max-vertical-offset="1156">
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-              </folding>
+            <state line="6" column="17" selection-start="120" selection-end="120" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="340">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -37,36 +35,16 @@
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/carmanager/static/CSS/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="12" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+            <state line="9" column="0" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1462">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search_cars.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/carmanager/templates/search_cars.html">
+      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/carmanager/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="735" selection-end="735" vertical-scroll-proportion="-11.076923" vertical-offset="18" max-vertical-offset="425">
-              <folding>
-                <element signature="n#style#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/carmanager/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="6" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/carmanager/templates/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="305" selection-end="305" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="374">
+            <state line="7" column="4" selection-start="188" selection-end="188" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="357">
               <folding />
             </state>
           </provider>
@@ -75,17 +53,19 @@
       <file leaf-file-name="add_cars.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/carmanager/templates/add_cars.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="6" selection-start="29" selection-end="29" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="323">
+            <state line="5" column="33" selection-start="122" selection-end="122" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="306">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search_results.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/carmanager/templates/search_results.html">
+      <file leaf-file-name="search_cars.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/carmanager/templates/search_cars.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="-0.8076923" vertical-offset="30" max-vertical-offset="646">
-              <folding />
+            <state line="6" column="68" selection-start="181" selection-end="181" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="442">
+              <folding>
+                <element signature="e#218#237#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,19 +73,17 @@
       <file leaf-file-name="edit_cars.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/carmanager/templates/edit_cars.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="46" selection-start="247" selection-end="247" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="323">
+            <state line="5" column="77" selection-start="163" selection-end="163" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="272">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/car_dealership/urls.py">
+      <file leaf-file-name="search_results.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/carmanager/templates/search_results.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="38" selection-start="189" selection-end="189" vertical-scroll-proportion="0.2748268" vertical-offset="0" max-vertical-offset="433">
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
-              </folding>
+            <state line="17" column="8" selection-start="600" selection-end="600" vertical-scroll-proportion="0.7100737" vertical-offset="0" max-vertical-offset="680">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -126,14 +104,15 @@
         <option value="$PROJECT_DIR$/carmanager/static/cars.csv" />
         <option value="$PROJECT_DIR$/carmanager/models.py" />
         <option value="$PROJECT_DIR$/carmanager/static/CSS/styling.css" />
-        <option value="$PROJECT_DIR$/carmanager/templates/edit_cars.html" />
-        <option value="$PROJECT_DIR$/carmanager/templates/search_results.html" />
-        <option value="$PROJECT_DIR$/carmanager/static/CSS/main.css" />
-        <option value="$PROJECT_DIR$/carmanager/templates/home.html" />
-        <option value="$PROJECT_DIR$/carmanager/templates/add_cars.html" />
         <option value="$PROJECT_DIR$/car_dealership/urls.py" />
         <option value="$PROJECT_DIR$/carmanager/views.py" />
+        <option value="$PROJECT_DIR$/carmanager/templates/base.html" />
+        <option value="$PROJECT_DIR$/carmanager/templates/edit_cars.html" />
         <option value="$PROJECT_DIR$/carmanager/templates/search_cars.html" />
+        <option value="$PROJECT_DIR$/carmanager/templates/add_cars.html" />
+        <option value="$PROJECT_DIR$/carmanager/templates/home.html" />
+        <option value="$PROJECT_DIR$/carmanager/static/CSS/main.css" />
+        <option value="$PROJECT_DIR$/carmanager/templates/search_results.html" />
       </list>
     </option>
   </component>
@@ -169,7 +148,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -276,6 +254,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -384,7 +363,27 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="car_dealership" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -410,27 +409,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="car_dealership" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -538,6 +517,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -549,11 +529,30 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-    </layout>
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29384616" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -572,21 +571,82 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/carmanager/forms.py">
+    <entry file="file://$PROJECT_DIR$/carmanager/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="19" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
+        <state line="44" column="42" selection-start="1443" selection-end="1444" vertical-scroll-proportion="0.0" vertical-offset="532" max-vertical-offset="1156">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carmanager/static/CSS/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="12" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carmanager/templates/search_cars.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="735" selection-end="735" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="425">
           <folding>
-            <element signature="e#0#34#0" expanded="false" />
+            <element signature="e#218#237#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carmanager/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="6" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carmanager/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carmanager/templates/add_cars.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="6" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carmanager/templates/search_results.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carmanager/templates/edit_cars.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="46" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/car_dealership/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="38" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="391">
+          <folding>
+            <element signature="e#0#51#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carmanager/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="19" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/carmanager/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="17" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="459">
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -594,7 +654,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="316" selection-end="483" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="357">
           <folding>
-            <element signature="e#0#51#0" expanded="true" />
+            <element signature="e#0#51#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -608,19 +668,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/carmanager/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="19" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
-          <folding>
-            <element signature="e#0#34#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="7" column="19" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/carmanager/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="17" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="459">
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -628,7 +682,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="316" selection-end="483" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="357">
           <folding>
-            <element signature="e#0#51#0" expanded="true" />
+            <element signature="e#0#51#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -659,16 +713,12 @@
     </entry>
     <entry file="file://C:/Python27/Lib/site-packages/django/core/handlers/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="131" column="8" selection-start="4648" selection-end="4672" vertical-scroll-proportion="0.33333334" vertical-offset="1781" max-vertical-offset="3519">
-          <folding />
-        </state>
+        <state line="131" column="8" selection-start="4648" selection-end="4672" vertical-scroll-proportion="0.33333334" vertical-offset="1781" max-vertical-offset="3519" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-762174762/__builtin__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="1184" selection-end="1184" vertical-scroll-proportion="0.33256352" vertical-offset="383" max-vertical-offset="86683">
-          <folding />
-        </state>
+        <state line="31" column="0" selection-start="1184" selection-end="1184" vertical-scroll-proportion="0.33256352" vertical-offset="383" max-vertical-offset="86683" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/html5-schema/block.rnc">
@@ -680,9 +730,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/carmanager/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="19" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-          <folding />
-        </state>
+        <state line="7" column="19" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/html5-schema/meta.rnc">
@@ -693,38 +741,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/carmanager/static/cars.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="18" selection-start="506" selection-end="516" vertical-scroll-proportion="0.31782946" vertical-offset="81" max-vertical-offset="17085" />
+      </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="18" selection-start="506" selection-end="516" vertical-scroll-proportion="0.31782946" vertical-offset="81" max-vertical-offset="17085">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carmanager/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="42" selection-start="1443" selection-end="1444" vertical-scroll-proportion="0.0" vertical-offset="532" max-vertical-offset="1156">
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carmanager/static/CSS/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="12" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carmanager/templates/search_cars.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="735" selection-end="735" vertical-scroll-proportion="-11.076923" vertical-offset="18" max-vertical-offset="425">
-          <folding>
-            <element signature="n#style#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/carmanager/models.py">
@@ -734,40 +755,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/carmanager/templates/home.html">
+    <entry file="file://$PROJECT_DIR$/carmanager/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="305" selection-end="305" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="374">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carmanager/templates/add_cars.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="29" selection-end="29" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="323">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carmanager/templates/search_results.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="-0.8076923" vertical-offset="30" max-vertical-offset="646">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carmanager/templates/edit_cars.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="46" selection-start="247" selection-end="247" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="323">
+        <state line="44" column="42" selection-start="1443" selection-end="1444" vertical-scroll-proportion="0.0" vertical-offset="532" max-vertical-offset="1156">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/car_dealership/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="38" selection-start="189" selection-end="189" vertical-scroll-proportion="0.2748268" vertical-offset="0" max-vertical-offset="433">
+        <state line="7" column="38" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
           <folding>
-            <element signature="e#0#51#0" expanded="true" />
+            <element signature="e#0#51#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carmanager/templates/edit_cars.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="77" selection-start="163" selection-end="163" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carmanager/templates/search_cars.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="68" selection-start="181" selection-end="181" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="442">
+          <folding>
+            <element signature="e#218#237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carmanager/templates/add_cars.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="33" selection-start="122" selection-end="122" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carmanager/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="17" selection-start="120" selection-end="120" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carmanager/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="4" selection-start="188" selection-end="188" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="357">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carmanager/static/CSS/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carmanager/templates/search_results.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="8" selection-start="600" selection-end="600" vertical-scroll-proportion="0.7100737" vertical-offset="0" max-vertical-offset="680">
+          <folding />
         </state>
       </provider>
     </entry>

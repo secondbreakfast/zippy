@@ -1,0 +1,16 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="{% static "css/main.css" %}">
+    <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300,400|Lato:400,300italic' rel='stylesheet' type='text/css'>
+    {% block extrahead %}
+    {% endblock %}
+</head>
+<body>
+{% block main %}
+{% endblock %}
+</body>
+</html>
